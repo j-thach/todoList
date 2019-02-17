@@ -1,7 +1,7 @@
 <template>
   <div class="todos">
     <div class="col-md-4">
-      <h1>Pending</h1>
+      <h1>PENDING</h1>
       <button @click="getTodos">Get Tasks</button>
       <ol>
         <draggable v-model="pending" @start="isDragging=true" @end="isDragging=false">
