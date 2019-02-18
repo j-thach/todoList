@@ -14,7 +14,7 @@
       </ol>
     </div>
     <div class="col-md-4">
-      <h1>On Going</h1>
+      <h1>ON GOING</h1>
       <ol>
         <draggable v-model="onGoing">
           <transition-group>
